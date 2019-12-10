@@ -1,6 +1,4 @@
 import 'source-map-support/register';
-
-import {Body} from "./Body";
 import {S3Event, S3EventRecord, SQSEvent} from "aws-lambda";
 
 export function withS3EventHandler(s3RecordHandler: (s3Record: S3EventRecord) => void) {
