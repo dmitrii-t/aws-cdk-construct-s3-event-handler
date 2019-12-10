@@ -3,7 +3,7 @@
 Run tests with the following command 
 
 ```bash
-npm run test
+npm run clean && npm run build &&  npm run test
 ```
 
 Use the construct to define s3 bucket and subscribe a handler to changes
