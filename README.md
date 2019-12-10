@@ -1,4 +1,4 @@
-### Neat'n'sweet construct to handle S3 changes like file uploads 
+### Neat'n'sweet construct to handle S3 events like file uploads 
 
 Run tests with the following command 
 
@@ -6,7 +6,8 @@ Run tests with the following command
 npm run test
 ```
 
-Use the builder to define the resource and a handler for that resource
+Use the construct to define s3 bucket and subscribe a handler to changes
+in that bucket
 
 ```typescript
 class S3EventHandlerConstructTest extends Stack {
