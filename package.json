@@ -4,8 +4,8 @@
   "description": "aws-cdk-construct-s3-event-handler",
   "main": "dist/index.js",
   "license": "MIT",
-  "author": "https://github.com/dtcimbal",
-  "repository": "https://github.com/dtcimbal/aws-cdk-construct-s3-event-handler.git",
+  "author": "https://github.com/dmitriitc",
+  "repository": "https://github.com/dmitriitc/aws-cdk-construct-s3-event-handler.git",
   "engines": {
     "node": ">=10.x"
   },
@@ -58,7 +58,7 @@
     "@types/node": "^10.14.10",
     "@types/node-fetch": "^2.5.3",
     "babel-loader": "^8.0.6",
-    "cdk-util": "github:dtcimbal/cdk-util#1.1.2",
+    "cdk-util": "github:dmitriitc/cdk-util#1.1.3",
     "chai": "^4.2.0",
     "cross-env": "^5.2.0",
     "env-cmd": "^10.0.1",
