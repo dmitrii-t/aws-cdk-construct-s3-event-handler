@@ -76,7 +76,7 @@ describe('given cdk stack which creates s3 bucket, queue with handler and subscr
 
     // Put objects
     await s3Client.putObject({Bucket: bucketName, Key: nonAuditableRecordKey, Body: "nonAuditablerecord"}).promise();
-    await s3Client.putObject({Bucket: bucketName, Key: auditableRecordKey, Body: "auditableRecord"}).promise()
+    await s3Client.putObject({Bucket: bucketName, Key: auditableRecordKey, Body: "auditableRecord"}).promise();
     // Wait for log record to appear
     await wait(20);
 
