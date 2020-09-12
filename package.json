@@ -63,7 +63,7 @@
     "cross-env": "^5.2.0",
     "env-cmd": "^10.0.1",
     "mocha": "^6.2.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "rimraf": "^2.6.3",
     "tsconfig-paths": "^3.8.0",
     "tslint": "^5.12.1",
